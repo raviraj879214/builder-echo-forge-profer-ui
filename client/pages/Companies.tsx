@@ -167,10 +167,13 @@ export default function Companies() {
             </div>
 
             {/* Add Company Button */}
-            <button className="flex items-center space-x-2 bg-profer-blue hover:bg-profer-blue/90 text-white px-4 py-2 rounded-lg text-sm font-medium">
+            <Link
+              to="/admin/companies/add"
+              className="flex items-center space-x-2 bg-profer-blue hover:bg-profer-blue/90 text-white px-4 py-2 rounded-lg text-sm font-medium"
+            >
               <Plus className="w-4 h-4" />
               <span>Add Company</span>
-            </button>
+            </Link>
           </div>
 
           {/* Table */}
