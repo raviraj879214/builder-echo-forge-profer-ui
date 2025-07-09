@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
   Home,
@@ -7,6 +7,8 @@ import {
   BarChart3,
   Users,
   Settings,
+  Menu,
+  X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
