@@ -119,7 +119,12 @@ export default function Analytics() {
                     bottom: 0,
                   }}
                 >
-                  <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+                  <CartesianGrid
+                    strokeDasharray="3 3"
+                    stroke="#f0f0f0"
+                    horizontal={true}
+                    vertical={true}
+                  />
                   <XAxis
                     dataKey="date"
                     axisLine={false}
