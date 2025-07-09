@@ -2,39 +2,6 @@ import { DashboardLayout } from "@/components/DashboardLayout";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 
-const chartData = [
-  {
-    date: "Feb 18",
-    Users: 100,
-    Projects: 80,
-    Revenue: 120,
-  },
-  {
-    date: "Feb 25",
-    Users: 110,
-    Projects: 90,
-    Revenue: 130,
-  },
-  {
-    date: "Mar 4",
-    Users: 125,
-    Projects: 105,
-    Revenue: 145,
-  },
-  {
-    date: "Mar 11",
-    Users: 140,
-    Projects: 125,
-    Revenue: 160,
-  },
-  {
-    date: "Mar 18",
-    Users: 160,
-    Projects: 145,
-    Revenue: 180,
-  },
-];
-
 export default function Analytics() {
   const [dateRange, setDateRange] = useState("Last 30 days");
   const [compareWith, setCompareWith] = useState("Previous period");
