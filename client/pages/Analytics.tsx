@@ -125,11 +125,15 @@ export default function Analytics() {
                     axisLine={false}
                     tickLine={false}
                     tick={{ fontSize: 12, fill: "#6B7280" }}
+                    type="category"
+                    allowDuplicatedCategory={false}
                   />
                   <YAxis
                     axisLine={false}
                     tickLine={false}
                     tick={{ fontSize: 12, fill: "#6B7280" }}
+                    type="number"
+                    domain={[0, "auto"]}
                   />
                   <Legend
                     wrapperStyle={{
