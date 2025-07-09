@@ -29,11 +29,25 @@ const navigation = [
 
 export function DashboardLayout({ children }: DashboardLayoutProps) {
   const location = useLocation();
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
     <div className="flex h-screen bg-profer-gray-50">
+      {/* Mobile sidebar overlay */}
+      {sidebarOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black bg-opacity-50 lg:hidden"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
+
       {/* Sidebar */}
-      <div className="w-64 bg-profer-navy text-white flex flex-col">
+      <div
+        className={cn(
+          "fixed lg:static inset-y-0 left-0 z-50 w-64 bg-profer-navy text-white flex flex-col transform lg:transform-none lg:translate-x-0 transition-transform duration-300 ease-in-out",
+          sidebarOpen ? "translate-x-0" : "-translate-x-full",
+        )}
+      >
         {/* Logo */}
         <div className="p-6 border-b border-profer-navy-light">
           <div className="flex items-center space-x-3">
