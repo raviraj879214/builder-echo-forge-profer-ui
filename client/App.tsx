@@ -25,14 +25,19 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/verification" element={<Verification />} />
-          <Route path="/companies" element={<Companies />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/activity" element={<Projects />} />
-          <Route path="/analytics" element={<Analytics />} />
-          <Route path="/users" element={<Users />} />
-          <Route path="/settings" element={<Settings />} />
+          {/* Public Routes */}
+          <Route path="/" element={<Home />} />
+
+          {/* Admin Routes */}
+          <Route path="/admin" element={<Index />} />
+          <Route path="/admin/verification" element={<Verification />} />
+          <Route path="/admin/companies" element={<Companies />} />
+          <Route path="/admin/projects" element={<Projects />} />
+          <Route path="/admin/activity" element={<Projects />} />
+          <Route path="/admin/analytics" element={<Analytics />} />
+          <Route path="/admin/users" element={<Users />} />
+          <Route path="/admin/settings" element={<Settings />} />
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
