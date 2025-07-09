@@ -150,7 +150,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
                 <div className="w-8 h-8 bg-profer-blue rounded-full flex items-center justify-center">
                   <span className="text-white text-sm font-medium">A</span>
                 </div>
-                <div className="text-sm">
+                <div className="hidden lg:block text-sm">
                   <div className="font-medium text-profer-gray-900">
                     Admin User
                   </div>
