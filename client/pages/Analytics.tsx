@@ -1,15 +1,6 @@
 import { DashboardLayout } from "@/components/DashboardLayout";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
-import {
-  AreaChart,
-  Area,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  ResponsiveContainer,
-  Legend,
-} from "recharts";
 
 const chartData = [
   {
