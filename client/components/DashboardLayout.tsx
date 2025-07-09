@@ -106,7 +106,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
               >
                 <Menu className="w-6 h-6" />
               </button>
-              <nav className="flex space-x-6 text-sm">
+              <nav className="hidden md:flex space-x-6 text-sm">
                 <Link
                   to="#"
                   className="text-profer-gray-600 hover:text-profer-gray-900"
