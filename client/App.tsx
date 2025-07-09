@@ -14,6 +14,8 @@ import Projects from "./pages/Projects";
 import Analytics from "./pages/Analytics";
 import Settings from "./pages/Settings";
 import Users from "./pages/Users";
+import AddUser from "./pages/AddUser";
+import AddCompany from "./pages/AddCompany";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
