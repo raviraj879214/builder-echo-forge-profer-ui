@@ -139,14 +139,14 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
                 </Link>
               </nav>
             </div>
-            <div className="flex items-center space-x-4">
-              <button className="text-sm text-profer-gray-600 hover:text-profer-gray-900">
+            <div className="flex items-center space-x-2 lg:space-x-4">
+              <button className="hidden sm:block text-sm text-profer-gray-600 hover:text-profer-gray-900">
                 Sign In
               </button>
-              <button className="bg-profer-red hover:bg-profer-red-hover text-white px-4 py-2 rounded text-sm font-medium">
+              <button className="hidden sm:block bg-profer-red hover:bg-profer-red-hover text-white px-4 py-2 rounded text-sm font-medium">
                 Join Profer
               </button>
-              <div className="flex items-center space-x-2 ml-4">
+              <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-profer-blue rounded-full flex items-center justify-center">
                   <span className="text-white text-sm font-medium">A</span>
                 </div>
