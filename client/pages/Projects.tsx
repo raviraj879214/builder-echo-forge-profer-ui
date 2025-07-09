@@ -168,10 +168,13 @@ export default function Projects() {
             </div>
 
             {/* Create Project Button */}
-            <button className="flex items-center space-x-2 bg-profer-blue hover:bg-profer-blue/90 text-white px-4 py-2 rounded-lg text-sm font-medium">
+            <Link
+              to="/admin/projects/add"
+              className="flex items-center space-x-2 bg-profer-blue hover:bg-profer-blue/90 text-white px-4 py-2 rounded-lg text-sm font-medium"
+            >
               <Plus className="w-4 h-4" />
               <span>Create Project</span>
-            </button>
+            </Link>
           </div>
 
           {/* Table */}
