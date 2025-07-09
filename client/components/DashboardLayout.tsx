@@ -17,14 +17,14 @@ interface DashboardLayoutProps {
 }
 
 const navigation = [
-  { name: "Dashboard", href: "/", icon: Home },
-  { name: "Verification", href: "/verification", icon: FileText },
-  { name: "Companies", href: "/companies", icon: Building2 },
-  { name: "Projects", href: "/projects", icon: BarChart3 },
-  { name: "Trading Activity", href: "/activity", icon: BarChart3 },
-  { name: "Analytics", href: "/analytics", icon: BarChart3 },
-  { name: "Users", href: "/users", icon: Users },
-  { name: "Settings", href: "/settings", icon: Settings },
+  { name: "Dashboard", href: "/admin", icon: Home },
+  { name: "Verification", href: "/admin/verification", icon: FileText },
+  { name: "Companies", href: "/admin/companies", icon: Building2 },
+  { name: "Projects", href: "/admin/projects", icon: BarChart3 },
+  { name: "Trading Activity", href: "/admin/activity", icon: BarChart3 },
+  { name: "Analytics", href: "/admin/analytics", icon: BarChart3 },
+  { name: "Users", href: "/admin/users", icon: Users },
+  { name: "Settings", href: "/admin/settings", icon: Settings },
 ];
 
 export function DashboardLayout({ children }: DashboardLayoutProps) {
