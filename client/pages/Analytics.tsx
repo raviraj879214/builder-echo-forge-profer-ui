@@ -150,6 +150,7 @@ export default function Analytics() {
                     stroke="#F59E0B"
                     fill="#F59E0B"
                     fillOpacity={0.6}
+                    connectNulls={false}
                   />
                   <Area
                     type="monotone"
@@ -158,6 +159,7 @@ export default function Analytics() {
                     stroke="#10B981"
                     fill="#10B981"
                     fillOpacity={0.6}
+                    connectNulls={false}
                   />
                   <Area
                     type="monotone"
@@ -166,6 +168,7 @@ export default function Analytics() {
                     stroke="#3B82F6"
                     fill="#3B82F6"
                     fillOpacity={0.6}
+                    connectNulls={false}
                   />
                 </AreaChart>
               </ResponsiveContainer>
