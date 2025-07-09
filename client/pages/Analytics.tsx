@@ -140,6 +140,8 @@ export default function Analytics() {
                       paddingTop: "20px",
                     }}
                     iconType="line"
+                    align="center"
+                    verticalAlign="bottom"
                   />
                   <Area
                     type="monotone"
