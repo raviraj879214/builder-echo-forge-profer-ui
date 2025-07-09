@@ -10,6 +10,9 @@ import Index from "./pages/Index";
 import Verification from "./pages/Verification";
 import Companies from "./pages/Companies";
 import Projects from "./pages/Projects";
+import Analytics from "./pages/Analytics";
+import Settings from "./pages/Settings";
+import Users from "./pages/Users";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
